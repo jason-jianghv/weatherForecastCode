@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95A978F29EA74940038BE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A978E29EA74940038BE9B /* AppDelegate.swift */; };
+		E95A979129EA74940038BE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A979029EA74940038BE9B /* SceneDelegate.swift */; };
+		E95A979329EA74940038BE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A979229EA74940038BE9B /* ViewController.swift */; };
+		E95A979629EA74940038BE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95A979429EA74940038BE9B /* Main.storyboard */; };
+		E95A979829EA74960038BE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95A979729EA74960038BE9B /* Assets.xcassets */; };
+		E95A979B29EA74960038BE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95A979929EA74960038BE9B /* LaunchScreen.storyboard */; };
+		E95A97A629EA74970038BE9B /* V____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97A529EA74970038BE9B /* V____Tests.swift */; };
+		E95A97B029EA74970038BE9B /* V____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97AF29EA74970038BE9B /* V____UITests.swift */; };
+		E95A97B229EA74970038BE9B /* V____UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97B129EA74970038BE9B /* V____UITestsLaunchTests.swift */; };
+		E95A97BF29EA7AD80038BE9B /* JHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97BE29EA7AD80038BE9B /* JHModel.swift */; };
+		E95A97C129EA84DA0038BE9B /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97C029EA84DA0038BE9B /* WeatherRequest.swift */; };
+		E95A97EA29EAA5FF0038BE9B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E95A97C329EAA5FF0038BE9B /* LICENSE */; };
+		E95A97EB29EAA5FF0038BE9B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97C529EAA5FF0038BE9B /* ConstraintMultiplierTarget.swift */; };
+		E95A97EC29EAA5FF0038BE9B /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97C629EAA5FF0038BE9B /* LayoutConstraintItem.swift */; };
+		E95A97ED29EAA5FF0038BE9B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97C729EAA5FF0038BE9B /* ConstraintDescription.swift */; };
+		E95A97EE29EAA5FF0038BE9B /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97C829EAA5FF0038BE9B /* ConstraintMakerPriortizable.swift */; };
+		E95A97EF29EAA5FF0038BE9B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97C929EAA5FF0038BE9B /* ConstraintAttributes.swift */; };
+		E95A97F029EAA5FF0038BE9B /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97CA29EAA5FF0038BE9B /* ConstraintViewDSL.swift */; };
+		E95A97F129EAA5FF0038BE9B /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97CB29EAA5FF0038BE9B /* ConstraintPriorityTarget.swift */; };
+		E95A97F229EAA5FF0038BE9B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97CC29EAA5FF0038BE9B /* ConstraintInsets.swift */; };
+		E95A97F329EAA5FF0038BE9B /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97CD29EAA5FF0038BE9B /* ConstraintMakerFinalizable.swift */; };
+		E95A97F429EAA5FF0038BE9B /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97CE29EAA5FF0038BE9B /* ConstraintDSL.swift */; };
+		E95A97F529EAA5FF0038BE9B /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97CF29EAA5FF0038BE9B /* ConstraintMakerExtendable.swift */; };
+		E95A97F629EAA5FF0038BE9B /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D029EAA5FF0038BE9B /* ConstraintPriority.swift */; };
+		E95A97F729EAA5FF0038BE9B /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D129EAA5FF0038BE9B /* ConstraintInsetTarget.swift */; };
+		E95A97F829EAA5FF0038BE9B /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D229EAA5FF0038BE9B /* ConstraintDirectionalInsetTarget.swift */; };
+		E95A97F929EAA5FF0038BE9B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D329EAA5FF0038BE9B /* ConstraintConfig.swift */; };
+		E95A97FA29EAA5FF0038BE9B /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D429EAA5FF0038BE9B /* UILayoutSupport+Extensions.swift */; };
+		E95A97FB29EAA5FF0038BE9B /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D529EAA5FF0038BE9B /* ConstraintView.swift */; };
+		E95A97FC29EAA5FF0038BE9B /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D629EAA5FF0038BE9B /* ConstraintLayoutGuide.swift */; };
+		E95A97FD29EAA5FF0038BE9B /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D729EAA5FF0038BE9B /* ConstraintLayoutSupport.swift */; };
+		E95A97FE29EAA5FF0038BE9B /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D829EAA5FF0038BE9B /* Typealiases.swift */; };
+		E95A97FF29EAA5FF0038BE9B /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97D929EAA5FF0038BE9B /* ConstraintConstantTarget.swift */; };
+		E95A980029EAA5FF0038BE9B /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97DA29EAA5FF0038BE9B /* ConstraintOffsetTarget.swift */; };
+		E95A980129EAA5FF0038BE9B /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97DB29EAA5FF0038BE9B /* ConstraintMakerEditable.swift */; };
+		E95A980229EAA5FF0038BE9B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97DC29EAA5FF0038BE9B /* ConstraintMaker.swift */; };
+		E95A980329EAA5FF0038BE9B /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97DD29EAA5FF0038BE9B /* ConstraintRelation.swift */; };
+		E95A980429EAA5FF0038BE9B /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97DE29EAA5FF0038BE9B /* ConstraintLayoutGuideDSL.swift */; };
+		E95A980529EAA5FF0038BE9B /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97DF29EAA5FF0038BE9B /* ConstraintView+Extensions.swift */; };
+		E95A980629EAA5FF0038BE9B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E029EAA5FF0038BE9B /* ConstraintItem.swift */; };
+		E95A980729EAA5FF0038BE9B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E129EAA5FF0038BE9B /* Constraint.swift */; };
+		E95A980829EAA5FF0038BE9B /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E229EAA5FF0038BE9B /* Debugging.swift */; };
+		E95A980929EAA5FF0038BE9B /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E329EAA5FF0038BE9B /* ConstraintRelatableTarget.swift */; };
+		E95A980A29EAA5FF0038BE9B /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E429EAA5FF0038BE9B /* LayoutConstraint.swift */; };
+		E95A980B29EAA5FF0038BE9B /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E529EAA5FF0038BE9B /* ConstraintLayoutGuide+Extensions.swift */; };
+		E95A980C29EAA5FF0038BE9B /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E629EAA5FF0038BE9B /* ConstraintDirectionalInsets.swift */; };
+		E95A980D29EAA5FF0038BE9B /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E729EAA5FF0038BE9B /* ConstraintLayoutSupportDSL.swift */; };
+		E95A980E29EAA5FF0038BE9B /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A97E829EAA5FF0038BE9B /* ConstraintMakerRelatable.swift */; };
+		E95A980F29EAA5FF0038BE9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E95A97E929EAA5FF0038BE9B /* README.md */; };
+		E95A981129EAE3B10038BE9B /* DefineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A981029EAE3B10038BE9B /* DefineSpacing.swift */; };
+		E95A981329EAE4890038BE9B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A981229EAE4890038BE9B /* WeatherViewController.swift */; };
+		E95A981529EAEFF40038BE9B /* JHForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A981429EAEFF40038BE9B /* JHForecastTableViewCell.swift */; };
+		E95A981729EAF63C0038BE9B /* UILabel+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A981629EAF63C0038BE9B /* UILabel+Convenient.swift */; };
+		E95A981929EAF6B80038BE9B /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A981829EAF6B80038BE9B /* FontSize.swift */; };
+		E95A981F29ECDE830038BE9B /* ForecastHeadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A981E29ECDE830038BE9B /* ForecastHeadTableViewCell.swift */; };
+		E95A982429ECF9030038BE9B /* JHWeatherMessageVieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A982329ECF9030038BE9B /* JHWeatherMessageVieController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95A97A229EA74970038BE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95A978329EA74940038BE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95A978A29EA74940038BE9B;
+			remoteInfo = "V天气预报";
+		};
+		E95A97AC29EA74970038BE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95A978329EA74940038BE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95A978A29EA74940038BE9B;
+			remoteInfo = "V天气预报";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E95A978B29EA74940038BE9B /* V天气预报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "V天气预报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95A978E29EA74940038BE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E95A979029EA74940038BE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E95A979229EA74940038BE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E95A979529EA74940038BE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95A979729EA74960038BE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95A979A29EA74960038BE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95A979C29EA74960038BE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95A97A129EA74970038BE9B /* V天气预报Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "V天气预报Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95A97A529EA74970038BE9B /* V____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "V____Tests.swift"; sourceTree = "<group>"; };
+		E95A97AB29EA74970038BE9B /* V天气预报UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "V天气预报UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95A97AF29EA74970038BE9B /* V____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "V____UITests.swift"; sourceTree = "<group>"; };
+		E95A97B129EA74970038BE9B /* V____UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "V____UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		E95A97BE29EA7AD80038BE9B /* JHModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHModel.swift; sourceTree = "<group>"; };
+		E95A97C029EA84DA0038BE9B /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
+		E95A97C329EAA5FF0038BE9B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E95A97C529EAA5FF0038BE9B /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		E95A97C629EAA5FF0038BE9B /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		E95A97C729EAA5FF0038BE9B /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		E95A97C829EAA5FF0038BE9B /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		E95A97C929EAA5FF0038BE9B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		E95A97CA29EAA5FF0038BE9B /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		E95A97CB29EAA5FF0038BE9B /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		E95A97CC29EAA5FF0038BE9B /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		E95A97CD29EAA5FF0038BE9B /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		E95A97CE29EAA5FF0038BE9B /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		E95A97CF29EAA5FF0038BE9B /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		E95A97D029EAA5FF0038BE9B /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		E95A97D129EAA5FF0038BE9B /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		E95A97D229EAA5FF0038BE9B /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		E95A97D329EAA5FF0038BE9B /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		E95A97D429EAA5FF0038BE9B /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		E95A97D529EAA5FF0038BE9B /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		E95A97D629EAA5FF0038BE9B /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		E95A97D729EAA5FF0038BE9B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		E95A97D829EAA5FF0038BE9B /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		E95A97D929EAA5FF0038BE9B /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		E95A97DA29EAA5FF0038BE9B /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		E95A97DB29EAA5FF0038BE9B /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		E95A97DC29EAA5FF0038BE9B /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		E95A97DD29EAA5FF0038BE9B /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		E95A97DE29EAA5FF0038BE9B /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		E95A97DF29EAA5FF0038BE9B /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		E95A97E029EAA5FF0038BE9B /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		E95A97E129EAA5FF0038BE9B /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		E95A97E229EAA5FF0038BE9B /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		E95A97E329EAA5FF0038BE9B /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		E95A97E429EAA5FF0038BE9B /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		E95A97E529EAA5FF0038BE9B /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		E95A97E629EAA5FF0038BE9B /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		E95A97E729EAA5FF0038BE9B /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		E95A97E829EAA5FF0038BE9B /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		E95A97E929EAA5FF0038BE9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E95A981029EAE3B10038BE9B /* DefineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineSpacing.swift; sourceTree = "<group>"; };
+		E95A981229EAE4890038BE9B /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		E95A981429EAEFF40038BE9B /* JHForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHForecastTableViewCell.swift; sourceTree = "<group>"; };
+		E95A981629EAF63C0038BE9B /* UILabel+Convenient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Convenient.swift"; sourceTree = "<group>"; };
+		E95A981829EAF6B80038BE9B /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		E95A981E29ECDE830038BE9B /* ForecastHeadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastHeadTableViewCell.swift; sourceTree = "<group>"; };
+		E95A982329ECF9030038BE9B /* JHWeatherMessageVieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHWeatherMessageVieController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95A978829EA74940038BE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A979E29EA74970038BE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A97A829EA74970038BE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95A978229EA74940038BE9B = {
+			isa = PBXGroup;
+			children = (
+				E95A978D29EA74940038BE9B /* V天气预报 */,
+				E95A97A429EA74970038BE9B /* V天气预报Tests */,
+				E95A97AE29EA74970038BE9B /* V天气预报UITests */,
+				E95A978C29EA74940038BE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E95A978C29EA74940038BE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95A978B29EA74940038BE9B /* V天气预报.app */,
+				E95A97A129EA74970038BE9B /* V天气预报Tests.xctest */,
+				E95A97AB29EA74970038BE9B /* V天气预报UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95A978D29EA74940038BE9B /* V天气预报 */ = {
+			isa = PBXGroup;
+			children = (
+				E95A978E29EA74940038BE9B /* AppDelegate.swift */,
+				E95A979029EA74940038BE9B /* SceneDelegate.swift */,
+				E95A979229EA74940038BE9B /* ViewController.swift */,
+				E95A981229EAE4890038BE9B /* WeatherViewController.swift */,
+				E95A982329ECF9030038BE9B /* JHWeatherMessageVieController.swift */,
+				E95A981429EAEFF40038BE9B /* JHForecastTableViewCell.swift */,
+				E95A981E29ECDE830038BE9B /* ForecastHeadTableViewCell.swift */,
+				E95A97BE29EA7AD80038BE9B /* JHModel.swift */,
+				E95A981029EAE3B10038BE9B /* DefineSpacing.swift */,
+				E95A981829EAF6B80038BE9B /* FontSize.swift */,
+				E95A97C029EA84DA0038BE9B /* WeatherRequest.swift */,
+				E95A981629EAF63C0038BE9B /* UILabel+Convenient.swift */,
+				E95A97C229EAA5FF0038BE9B /* SnapKit */,
+				E95A979429EA74940038BE9B /* Main.storyboard */,
+				E95A979729EA74960038BE9B /* Assets.xcassets */,
+				E95A979929EA74960038BE9B /* LaunchScreen.storyboard */,
+				E95A979C29EA74960038BE9B /* Info.plist */,
+			);
+			path = "V天气预报";
+			sourceTree = "<group>";
+		};
+		E95A97A429EA74970038BE9B /* V天气预报Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E95A97A529EA74970038BE9B /* V____Tests.swift */,
+			);
+			path = "V天气预报Tests";
+			sourceTree = "<group>";
+		};
+		E95A97AE29EA74970038BE9B /* V天气预报UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E95A97AF29EA74970038BE9B /* V____UITests.swift */,
+				E95A97B129EA74970038BE9B /* V____UITestsLaunchTests.swift */,
+			);
+			path = "V天气预报UITests";
+			sourceTree = "<group>";
+		};
+		E95A97C229EAA5FF0038BE9B /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				E95A97C329EAA5FF0038BE9B /* LICENSE */,
+				E95A97C429EAA5FF0038BE9B /* Source */,
+				E95A97E929EAA5FF0038BE9B /* README.md */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		E95A97C429EAA5FF0038BE9B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E95A97C529EAA5FF0038BE9B /* ConstraintMultiplierTarget.swift */,
+				E95A97C629EAA5FF0038BE9B /* LayoutConstraintItem.swift */,
+				E95A97C729EAA5FF0038BE9B /* ConstraintDescription.swift */,
+				E95A97C829EAA5FF0038BE9B /* ConstraintMakerPriortizable.swift */,
+				E95A97C929EAA5FF0038BE9B /* ConstraintAttributes.swift */,
+				E95A97CA29EAA5FF0038BE9B /* ConstraintViewDSL.swift */,
+				E95A97CB29EAA5FF0038BE9B /* ConstraintPriorityTarget.swift */,
+				E95A97CC29EAA5FF0038BE9B /* ConstraintInsets.swift */,
+				E95A97CD29EAA5FF0038BE9B /* ConstraintMakerFinalizable.swift */,
+				E95A97CE29EAA5FF0038BE9B /* ConstraintDSL.swift */,
+				E95A97CF29EAA5FF0038BE9B /* ConstraintMakerExtendable.swift */,
+				E95A97D029EAA5FF0038BE9B /* ConstraintPriority.swift */,
+				E95A97D129EAA5FF0038BE9B /* ConstraintInsetTarget.swift */,
+				E95A97D229EAA5FF0038BE9B /* ConstraintDirectionalInsetTarget.swift */,
+				E95A97D329EAA5FF0038BE9B /* ConstraintConfig.swift */,
+				E95A97D429EAA5FF0038BE9B /* UILayoutSupport+Extensions.swift */,
+				E95A97D529EAA5FF0038BE9B /* ConstraintView.swift */,
+				E95A97D629EAA5FF0038BE9B /* ConstraintLayoutGuide.swift */,
+				E95A97D729EAA5FF0038BE9B /* ConstraintLayoutSupport.swift */,
+				E95A97D829EAA5FF0038BE9B /* Typealiases.swift */,
+				E95A97D929EAA5FF0038BE9B /* ConstraintConstantTarget.swift */,
+				E95A97DA29EAA5FF0038BE9B /* ConstraintOffsetTarget.swift */,
+				E95A97DB29EAA5FF0038BE9B /* ConstraintMakerEditable.swift */,
+				E95A97DC29EAA5FF0038BE9B /* ConstraintMaker.swift */,
+				E95A97DD29EAA5FF0038BE9B /* ConstraintRelation.swift */,
+				E95A97DE29EAA5FF0038BE9B /* ConstraintLayoutGuideDSL.swift */,
+				E95A97DF29EAA5FF0038BE9B /* ConstraintView+Extensions.swift */,
+				E95A97E029EAA5FF0038BE9B /* ConstraintItem.swift */,
+				E95A97E129EAA5FF0038BE9B /* Constraint.swift */,
+				E95A97E229EAA5FF0038BE9B /* Debugging.swift */,
+				E95A97E329EAA5FF0038BE9B /* ConstraintRelatableTarget.swift */,
+				E95A97E429EAA5FF0038BE9B /* LayoutConstraint.swift */,
+				E95A97E529EAA5FF0038BE9B /* ConstraintLayoutGuide+Extensions.swift */,
+				E95A97E629EAA5FF0038BE9B /* ConstraintDirectionalInsets.swift */,
+				E95A97E729EAA5FF0038BE9B /* ConstraintLayoutSupportDSL.swift */,
+				E95A97E829EAA5FF0038BE9B /* ConstraintMakerRelatable.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95A978A29EA74940038BE9B /* V天气预报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95A97B529EA74970038BE9B /* Build configuration list for PBXNativeTarget "V天气预报" */;
+			buildPhases = (
+				E95A978729EA74940038BE9B /* Sources */,
+				E95A978829EA74940038BE9B /* Frameworks */,
+				E95A978929EA74940038BE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "V天气预报";
+			productName = "V天气预报";
+			productReference = E95A978B29EA74940038BE9B /* V天气预报.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E95A97A029EA74970038BE9B /* V天气预报Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95A97B829EA74970038BE9B /* Build configuration list for PBXNativeTarget "V天气预报Tests" */;
+			buildPhases = (
+				E95A979D29EA74970038BE9B /* Sources */,
+				E95A979E29EA74970038BE9B /* Frameworks */,
+				E95A979F29EA74970038BE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95A97A329EA74970038BE9B /* PBXTargetDependency */,
+			);
+			name = "V天气预报Tests";
+			productName = "V天气预报Tests";
+			productReference = E95A97A129EA74970038BE9B /* V天气预报Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E95A97AA29EA74970038BE9B /* V天气预报UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95A97BB29EA74970038BE9B /* Build configuration list for PBXNativeTarget "V天气预报UITests" */;
+			buildPhases = (
+				E95A97A729EA74970038BE9B /* Sources */,
+				E95A97A829EA74970038BE9B /* Frameworks */,
+				E95A97A929EA74970038BE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95A97AD29EA74970038BE9B /* PBXTargetDependency */,
+			);
+			name = "V天气预报UITests";
+			productName = "V天气预报UITests";
+			productReference = E95A97AB29EA74970038BE9B /* V天气预报UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95A978329EA74940038BE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = JH;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E95A978A29EA74940038BE9B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E95A97A029EA74970038BE9B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E95A978A29EA74940038BE9B;
+					};
+					E95A97AA29EA74970038BE9B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E95A978A29EA74940038BE9B;
+					};
+				};
+			};
+			buildConfigurationList = E95A978629EA74940038BE9B /* Build configuration list for PBXProject "V天气预报" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95A978229EA74940038BE9B;
+			productRefGroup = E95A978C29EA74940038BE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95A978A29EA74940038BE9B /* V天气预报 */,
+				E95A97A029EA74970038BE9B /* V天气预报Tests */,
+				E95A97AA29EA74970038BE9B /* V天气预报UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95A978929EA74940038BE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A979B29EA74960038BE9B /* LaunchScreen.storyboard in Resources */,
+				E95A979829EA74960038BE9B /* Assets.xcassets in Resources */,
+				E95A980F29EAA5FF0038BE9B /* README.md in Resources */,
+				E95A97EA29EAA5FF0038BE9B /* LICENSE in Resources */,
+				E95A979629EA74940038BE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A979F29EA74970038BE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A97A929EA74970038BE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95A978729EA74940038BE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A97EB29EAA5FF0038BE9B /* ConstraintMultiplierTarget.swift in Sources */,
+				E95A980E29EAA5FF0038BE9B /* ConstraintMakerRelatable.swift in Sources */,
+				E95A97FB29EAA5FF0038BE9B /* ConstraintView.swift in Sources */,
+				E95A980729EAA5FF0038BE9B /* Constraint.swift in Sources */,
+				E95A980229EAA5FF0038BE9B /* ConstraintMaker.swift in Sources */,
+				E95A982429ECF9030038BE9B /* JHWeatherMessageVieController.swift in Sources */,
+				E95A980D29EAA5FF0038BE9B /* ConstraintLayoutSupportDSL.swift in Sources */,
+				E95A97FE29EAA5FF0038BE9B /* Typealiases.swift in Sources */,
+				E95A979329EA74940038BE9B /* ViewController.swift in Sources */,
+				E95A97EC29EAA5FF0038BE9B /* LayoutConstraintItem.swift in Sources */,
+				E95A97EF29EAA5FF0038BE9B /* ConstraintAttributes.swift in Sources */,
+				E95A97F329EAA5FF0038BE9B /* ConstraintMakerFinalizable.swift in Sources */,
+				E95A980129EAA5FF0038BE9B /* ConstraintMakerEditable.swift in Sources */,
+				E95A97BF29EA7AD80038BE9B /* JHModel.swift in Sources */,
+				E95A978F29EA74940038BE9B /* AppDelegate.swift in Sources */,
+				E95A980C29EAA5FF0038BE9B /* ConstraintDirectionalInsets.swift in Sources */,
+				E95A97EE29EAA5FF0038BE9B /* ConstraintMakerPriortizable.swift in Sources */,
+				E95A981529EAEFF40038BE9B /* JHForecastTableViewCell.swift in Sources */,
+				E95A980029EAA5FF0038BE9B /* ConstraintOffsetTarget.swift in Sources */,
+				E95A980429EAA5FF0038BE9B /* ConstraintLayoutGuideDSL.swift in Sources */,
+				E95A97F229EAA5FF0038BE9B /* ConstraintInsets.swift in Sources */,
+				E95A97F129EAA5FF0038BE9B /* ConstraintPriorityTarget.swift in Sources */,
+				E95A981129EAE3B10038BE9B /* DefineSpacing.swift in Sources */,
+				E95A97F629EAA5FF0038BE9B /* ConstraintPriority.swift in Sources */,
+				E95A980329EAA5FF0038BE9B /* ConstraintRelation.swift in Sources */,
+				E95A97C129EA84DA0038BE9B /* WeatherRequest.swift in Sources */,
+				E95A97F529EAA5FF0038BE9B /* ConstraintMakerExtendable.swift in Sources */,
+				E95A97F729EAA5FF0038BE9B /* ConstraintInsetTarget.swift in Sources */,
+				E95A981929EAF6B80038BE9B /* FontSize.swift in Sources */,
+				E95A980829EAA5FF0038BE9B /* Debugging.swift in Sources */,
+				E95A981729EAF63C0038BE9B /* UILabel+Convenient.swift in Sources */,
+				E95A981329EAE4890038BE9B /* WeatherViewController.swift in Sources */,
+				E95A980529EAA5FF0038BE9B /* ConstraintView+Extensions.swift in Sources */,
+				E95A979129EA74940038BE9B /* SceneDelegate.swift in Sources */,
+				E95A97FD29EAA5FF0038BE9B /* ConstraintLayoutSupport.swift in Sources */,
+				E95A97FA29EAA5FF0038BE9B /* UILayoutSupport+Extensions.swift in Sources */,
+				E95A97ED29EAA5FF0038BE9B /* ConstraintDescription.swift in Sources */,
+				E95A980629EAA5FF0038BE9B /* ConstraintItem.swift in Sources */,
+				E95A980B29EAA5FF0038BE9B /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				E95A97FC29EAA5FF0038BE9B /* ConstraintLayoutGuide.swift in Sources */,
+				E95A97F929EAA5FF0038BE9B /* ConstraintConfig.swift in Sources */,
+				E95A980A29EAA5FF0038BE9B /* LayoutConstraint.swift in Sources */,
+				E95A97F029EAA5FF0038BE9B /* ConstraintViewDSL.swift in Sources */,
+				E95A97FF29EAA5FF0038BE9B /* ConstraintConstantTarget.swift in Sources */,
+				E95A97F429EAA5FF0038BE9B /* ConstraintDSL.swift in Sources */,
+				E95A980929EAA5FF0038BE9B /* ConstraintRelatableTarget.swift in Sources */,
+				E95A981F29ECDE830038BE9B /* ForecastHeadTableViewCell.swift in Sources */,
+				E95A97F829EAA5FF0038BE9B /* ConstraintDirectionalInsetTarget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A979D29EA74970038BE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A97A629EA74970038BE9B /* V____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A97A729EA74970038BE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95A97B029EA74970038BE9B /* V____UITests.swift in Sources */,
+				E95A97B229EA74970038BE9B /* V____UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E95A97A329EA74970038BE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95A978A29EA74940038BE9B /* V天气预报 */;
+			targetProxy = E95A97A229EA74970038BE9B /* PBXContainerItemProxy */;
+		};
+		E95A97AD29EA74970038BE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95A978A29EA74940038BE9B /* V天气预报 */;
+			targetProxy = E95A97AC29EA74970038BE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E95A979429EA74940038BE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95A979529EA74940038BE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95A979929EA74960038BE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95A979A29EA74960038BE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95A97B329EA74970038BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E95A97B429EA74970038BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95A97B629EA74970038BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR77AXY48G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "V天气预报/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.swift.Vforecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95A97B729EA74970038BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR77AXY48G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "V天气预报/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.swift.Vforecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E95A97B929EA74970038BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR77AXY48G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.swift.V----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V天气预报.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/V天气预报";
+			};
+			name = Debug;
+		};
+		E95A97BA29EA74970038BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR77AXY48G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.swift.V----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V天气预报.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/V天气预报";
+			};
+			name = Release;
+		};
+		E95A97BC29EA74970038BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR77AXY48G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.swift.V----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "V天气预报";
+			};
+			name = Debug;
+		};
+		E95A97BD29EA74970038BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR77AXY48G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.swift.V----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "V天气预报";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95A978629EA74940038BE9B /* Build configuration list for PBXProject "V天气预报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A97B329EA74970038BE9B /* Debug */,
+				E95A97B429EA74970038BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95A97B529EA74970038BE9B /* Build configuration list for PBXNativeTarget "V天气预报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A97B629EA74970038BE9B /* Debug */,
+				E95A97B729EA74970038BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95A97B829EA74970038BE9B /* Build configuration list for PBXNativeTarget "V天气预报Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A97B929EA74970038BE9B /* Debug */,
+				E95A97BA29EA74970038BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95A97BB29EA74970038BE9B /* Build configuration list for PBXNativeTarget "V天气预报UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A97BC29EA74970038BE9B /* Debug */,
+				E95A97BD29EA74970038BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E95A978329EA74940038BE9B /* Project object */;
+}
