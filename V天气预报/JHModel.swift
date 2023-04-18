@@ -70,11 +70,6 @@ struct Cast {
     var daywind: String
     var nightwind: String
     
-    var displayWeather: String {
-        Date.now
-        return ""
-    }
-    
     init(date: String, week: String, dayweather: String, nightweather: String, daytemp: String, nighttemp: String, daywind: String, nightwind: String) {
         self.date = date
         self.week = week

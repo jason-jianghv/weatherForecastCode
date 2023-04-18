@@ -29,7 +29,7 @@ class JHForecastHeadTableViewCell: UITableViewCell {
     
     func setupUI(){
         self.backgroundColor = .clear
-//        self.selectionStyle = .none
+        self.selectionStyle = .none
         addSubview(cityLabel)
         addSubview(dayTempLabel)
         addSubview(nightTempLabel)

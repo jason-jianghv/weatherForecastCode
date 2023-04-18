@@ -31,9 +31,9 @@ class WeatherViewController: UIViewController {
         
         setupSubviews()
         
-        Task.init {
+        Task.init { [weak self] in
             do {
-                let weathers = try await WeatherService.instance.getWeather(cityCode: self.cityCode)
+                let weathers = try await WeatherService.instance.getWeather(cityCode: self?.cityCode ?? 0)
                 if (weathers.count > 0) {
                     let forecast = weathers[0]
                     let casts = forecast.casts
@@ -52,7 +52,7 @@ class WeatherViewController: UIViewController {
                     tableView.reloadData()
                 }
             } catch {
-                
+                // 展示错误，重试操作
             }
         }
         
@@ -112,9 +112,6 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = model.cell(tableView: tableView, indexPath: indexPath)
         model.update()
         return cell
-//        let cell = tableView.dequeueReusableCell(withIdentifier: JHForecastTableViewCell.listCellId, for: indexPath) as? JHForecastTableViewCell
-////        cell?.castModel = cast
-//        return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

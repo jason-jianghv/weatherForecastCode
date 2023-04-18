@@ -12,8 +12,6 @@ import UIKit
 public let screenWidth = UIScreen.main.bounds.width
 public let screenHeight = UIScreen.main.bounds.height
 
-public let statusBarHeight = UIApplication.shared.statusBarFrame.height
-
 /// edges
 public let edgesPadding = 30
 public let widgetPadding = 15
